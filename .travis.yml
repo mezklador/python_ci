@@ -1,5 +1,9 @@
 language: python
 python:
     - "3.6"
+repo_token: nk0GtybiE2MPESX1gakiXWzCIiiOzZ1aj
 script:
     - nosetests test/mathlib_test.py
+    - coverage src/mathlib.py
+    - coverage report
+    - coveralls
