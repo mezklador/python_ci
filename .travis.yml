@@ -3,6 +3,6 @@ python:
     - "3.6"
 repo_token: nk0GtybiE2MPESX1gakiXWzCIiiOzZ1aj
 script:
-    - nosetests --with-coverage --cover-package=mathlib test/mathlib_test.py
+    - nosetests --with-coverage --cover-package=src.mathlib test/mathlib_test.py
 after_success:
     - coveralls
