@@ -1,6 +1,7 @@
 # Python CI
 
-[![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
-
+[![Build
+Status](https://travis-ci.org/mezklador/python_ci.svg?branch=dev)](https://travis-ci.org/mezklador/python_ci)
 [![Coverage
-Status](https://coveralls.io/repos/github/mezklador/python_ci/badge.svg?branch=dev)](https://coveralls.io/github/mezklador/python_ci?branch=dev)
+Status](https://coveralls.io/repos/github/mezklador/python_ci/badge.png?branch=dev)](https://coveralls.io/github/mezklador/python_ci?branch=dev)
+

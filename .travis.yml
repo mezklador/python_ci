@@ -1,0 +1,10 @@
+language: python
+python:
+    - "3.6"
+repo_token: nk0GtybiE2MPESX1gakiXWzCIiiOzZ1aj
+script:
+    # cover-package option restrains coverage only on package/module you just
+    # need. Else, it's a mess.
+    - nosetests --with-coverage --cover-package=src.mathlib --cover-package=test.mathlib_test
+after_success:
+    - coveralls
